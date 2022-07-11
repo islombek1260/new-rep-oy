@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bookmark Landing Page </title>
-  <link rel="stylesheet" href="./css/mini-main.css">
+  <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
   
@@ -62,36 +62,59 @@
                 Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can access them on the go.
               </div>
           </div>
-          <ul class="features-list">
-            <li class="features-list__item">
-              <a class="features-list__link features-list__link--mod" href="#">
+          <ul class="tab">
+            <li class="tab__item tab__item--active">
+              <a class="tab__link tab__link--active" href="#pannel1">
                 Simple Bookmarking
               </a>
             </li>
-            <li class="features-list__item">
-              <a class="features-list__link" href="#">
+            <li class="tab__item">
+              <a class="tab__link" href="#pannel2">
                 Speedy Searching
               </a>
             </li>
-            <li class="features-list__item">
-              <a class="features-list__link " href="#">
+            <li class="tab__item">
+              <a class="tab__link " href="#pannel3">
                 Easy Sharing
               </a>
             </li>
           </ul>
-      </div>
-        <div class="info-wrap">
-            <div class="info-wrap__txt">
-              <h2 class="info-wrap__title">Bookmark in one click</h2>
-              <p class="info-wrap__desc">
-                Organize your bookmarks however you like. 
-                Our simple drag-and-drop interface gives you complete 
-                control over how you manage your favourite sites.
-              </p>
-              <a class="info-wrap__btn" href="#">More info</a>
-            </div>
+          <ul class="features-info-box">
+            <li class="features-info-box__item features-info-box__item--active" id="pannel1">
+                <div class="features-info-box__minibox">
+                  <h2 class="features-info-box__title">Bookmark in one click</h2>
+                  <p class="features-info-box__desc">
+                    Organize your bookmarks however you like. 
+                    Our simple drag-and-drop interface gives you complete 
+                    control over how you manage your favourite sites.
+                  </p>
+                  <a class="features-info-box__btn" href="#">More info</a>
+                </div>
+            </li>
+            <li class="features-info-box__item" id="pannel2">
+              <div class="features-info-box__minibox">
+                  <h2 class="features-info-box__title">Intelligent search</h2>
+                  <p class="features-info-box__desc">
+                      Our powerful search feature will help you find 
+                      saved sites in no time at all. No need to trawl 
+                      through all of your bookmarks.
+                  </p>
+                  <a class="features-info-box__btn" href="#">More info</a>
+              </div>
+            </li>
+            <li class="features-info-box__item" id="pannel3">
+              <div class="features-info-box__minibox">
+                  <h2 class="features-info-box__title">Share your bookmarks</h2>
+                  <p class="features-info-box__desc">
+                      Easily share your bookmarks and collections with others. 
+                      Create a shareable link that you can send at the click of a button.
+                  </p>
+                  <a class="features-info-box__btn" href="#">More info</a>
+              </div>
+            </li>
+          </ul>
         </div>
-        <div class="download__box">
+        <div class="download">
           <div class="download__info">
             <h2 class="download__theme">Download the extension</h2>
             <p class="download__text">
@@ -125,11 +148,138 @@
         </div>
       </div>
     </section>
+    <section class="question">
+      <div class="container">
+        <h2 class="question__heading">Frequently Asked Questions</h2>
+        <p class="question__desc download__text ">
+          We’ve got more browsers in the pipeline. Please do let us know if you’ve got a favourite you’d like us to
+          prioritize.
+        </p>
+
+        <div class="question__box">
+          <details class="question__details">
+            <summary class="question__summary">What is Bookmark?</summary>
+            <p>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse imperdiet.
+            </p>
+          </details>
+
+          <details class="question__details">
+            <summary class="question__summary">How can I request a new browser?</summary>
+            <p>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse imperdiet.
+            </p>
+          </details>
+
+          <details class="question__details">
+            <summary class="question__summary">Is there a mobile app?</summary>
+            <p>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse imperdiet.
+            </p>
+          </details>
+
+          <details class="question__details">
+            <summary class="question__summary">What about other Chromium browsers?</summary>
+            <p>
+              Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
+              ultricies non ligula. Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue
+              massa, ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. Mauris
+              augue massa, ultricies non ligula. Suspendisse imperdiet.
+            </p>
+          </details>
+        </div>
+        <div class="question__btn__box">
+          <a class="question__btn" href="#">More Info</a>
+        </div>
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <div class="contact__box">
+          <p class="contact__subdesc">
+            35,000+ ALREADY JOINED
+          </p>
+          <h2 class="contact__heading">
+            Stay up-to-date with what
+            we’re doing
+          </h2>
+          
+          <form class="contact__form" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+            <label>
+              <input class="contact__input" type="email" placeholder="Enter your email address" name="user__email"
+                aria-label="enter your email" required>
+              <span class="contact__invalid">Whoops, make sure it’s an email</span>
+            </label>
+            <button class="contact__btn" type="submit">Contact Us</button>
+          </form>
+        </div>
+
+        <!-- <form class="join-form" action="https://echo.htmlacademy.ru/courses" method="post">
+          <label class="join-form__label-email">
+            <input class="join-form__input-email" type="email" minlength="10" name="user_email"
+              placeholder="Enter your email address" aria-label="Enter your email" required>
+            <span class="join-form__tiny">Whoops, make sure it’s an email</span>
+          </label>
+          <button class="join-form__btn" type="submit">Contact Us</button>
+        </form> -->
+
+      </div>
+    </section>
   </main>
   <!-- SITE MAIN END -->
+
   <!-- SITE FOOTER START -->
   <footer class="site-footer">
+    <div class="container">
+      <div class="site-footer__content">
+        <div class="site-footer__info">
+          <a href="./index.html">
+            <img src="./images/site-footer-logo.svg" width="148" height="25" alt="Site footer logo">
+          </a>
+          <nav>
+            <ul class="site-footer__list">
+              <li class="site-footer__item">
+                <a href="#">FEATURES</a>
+              </li>
+              <li class="site-footer__item">
+                <a href="#">PRICING</a>
+              </li>
+              <li class="site-footer__item">
+                <a href="#">CONTACT</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="site-footer__link">
+          <a class="site-footer__item" href="https://www.googleadservices.com" target="blank">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path id="facebook" fill-rule="evenodd" clip-rule="evenodd"
+               d="M22.675 0H1.325C0.593 0 0 0.593 0 1.325V22.676C0 23.407 0.593 24 1.325 24H12.82V14.706H9.692V11.084H12.82V8.413C12.82 5.313 14.713 3.625 17.479 3.625C18.804 3.625 19.942 3.724 20.274 3.768V7.008L18.356 7.009C16.852 7.009 16.561 7.724 16.561 8.772V11.085H20.148L19.681 14.707H16.561V24H22.677C23.407 24 24 23.407 24 22.675V1.325C24 0.593 23.407 0 22.675 0Z"
+               fill="currentColor"/>
+              </svg>
+          </a>
+
+          <a class="site-footer__item" href="https://twitter.com/?lang=ru" target="blank">
+            <svg width="24" height="20" viewBox="0 0 24 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <path id="twitter" fill-rule="evenodd" clip-rule="evenodd"
+                d="M24 2.55705C23.117 2.94905 22.168 3.21305 21.172 3.33205C22.189 2.72305 22.97 1.75805 23.337 0.608047C22.386 1.17205 21.332 1.58205 20.21 1.80305C19.313 0.846047 18.032 0.248047 16.616 0.248047C13.437 0.248047 11.101 3.21405 11.819 6.29305C7.728 6.08805 4.1 4.12805 1.671 1.14905C0.381 3.36205 1.002 6.25705 3.194 7.72305C2.388 7.69705 1.628 7.47605 0.965 7.10705C0.911 9.38805 2.546 11.522 4.914 11.997C4.221 12.185 3.462 12.229 2.69 12.081C3.316 14.037 5.134 15.46 7.29 15.5C5.22 17.123 2.612 17.848 0 17.54C2.179 18.937 4.768 19.752 7.548 19.752C16.69 19.752 21.855 12.031 21.543 5.10605C22.505 4.41105 23.34 3.54405 24 2.55705Z"
+                fill="currentColor"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
   </footer>
-  <!-- SITE FOOTER END -->
 </body>
+<SCRipt src="./js/main.js"></SCRipt>
 </html>
